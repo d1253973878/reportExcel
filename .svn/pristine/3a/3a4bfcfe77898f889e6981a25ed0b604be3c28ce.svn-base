@@ -1,0 +1,44 @@
+.newtec-paragraph{
+	padding:10px 20px;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+.newtec-paragraph>.paragraph-title{
+	font-size: 18px;
+	font-weight:600;
+	margin-bottom:15px;
+}
+.newtec-paragraph>.content-div{
+	margin-bottom:10px;
+	padding-left: 10px;
+}
+.newtec-paragraph>.content-div>.paragraph-step{
+    margin:5px 10px 0 50px;
+}
+.newtec-paragraph>.content-div>.paragraph-step>.step-num{
+	color:#2277ee;
+}
+.newtec-paragraph>.img-div>.img-item{
+	text-align: center;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.newtec-paragraph>.img-div>img.img-item,
+.newtec-paragraph>.img-div>.img-item>img{
+	max-height:200px;
+}
+.newtec-paragraph>.img-div{
+	overflow: hidden;
+}
+.newtec-paragraph.align-tag>.img-div,
+.newtec-paragraph.align-tag>.content-div{
+	float:left;
+}
+.newtec-paragraph.align-tag>.content-div{
+	width:60%;
+}
+.newtec-paragraph.align-tag>.img-div{
+	width:40%;
+	padding-left: 30px;
+}

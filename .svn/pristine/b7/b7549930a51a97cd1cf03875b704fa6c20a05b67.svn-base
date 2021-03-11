@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0, maximum-scale=2.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript" src="plugin.js" charset="utf-8"></script>
+</head>
+<body>
+
+<script>
+  initSQLBuilder(function() {
+    QueryBuilderPage.create(document.body, {});
+  })
+</script>
+ 
+</body>
+</html>

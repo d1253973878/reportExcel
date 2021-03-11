@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+	<persistence-unit name="newtec.rpc" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		
+		<class>com.newtec.rpc.core.Param</class>
+		<class>com.newtec.rpc.monitor.MonitorNode</class>
+		<class>com.newtec.rpc.monitor.MonitorService</class>
+		<class>com.newtec.rpc.monitor.MonitorMethod</class>
+		<class>com.newtec.rpc.monitor.MonitorTable</class>
+		<class>com.newtec.rpc.monitor.MonitorCallLog</class>
+		<class>com.newtec.rpc.monitor.MonitorClusterLog</class>
+		
+		<class>com.newtec.rpc.base.Service</class>
+		<class>com.newtec.rpc.base.ServiceMethod</class>
+		
+		<class>com.newtec.rpc.auth.User</class>
+		<class>com.newtec.rpc.call.table.entity.UserMethod</class>
+		<class>com.newtec.rpc.call.table.entity.UserTable</class>
+		<class>com.newtec.rpc.call.url.entity.UserUrl</class>
+		
+		<class>com.newtec.rpc.call.table.entity.FieldMeta</class>
+		<class>com.newtec.rpc.call.table.entity.TableMeta</class>
+		
+		<class>com.newtec.report.common.entity.MyqdpDatasource</class>
+		<class>com.newtec.report.common.entity.report.Report</class>
+		<class>com.newtec.report.common.entity.report.ReportConfig</class>
+		
+		<class>com.newtec.myqdp.entity.orga.Department</class>
+		
+		<class>com.newtec.report.common.entity.api.APIDataset</class>
+		<class>com.newtec.report.common.entity.api.APIDatasetField</class>
+		<class>com.newtec.report.common.entity.api.APIDatasetParam</class>
+
+		<class>com.newtec.report.common.entity.sql.SQLDataset</class>
+		<class>com.newtec.report.common.entity.sql.SQLDatasetField</class>
+		<class>com.newtec.report.common.entity.sql.SQLDatasetParam</class>
+
+		<class>com.newtec.report.common.entity.meta.DBFieldMeta</class>
+		<class>com.newtec.report.common.entity.meta.DBForeignKeyMeta</class>
+		<class>com.newtec.report.common.entity.meta.DBIndexMeta</class>
+		
+		<properties>
+			<property name="hibernate.connection.url"
+				value="jdbc:mysql://192.168.82.48:3306/report?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false" />
+			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
+			<property name="hibernate.connection.username" value="report" />
+			<property name="hibernate.connection.password" value="report" />
+			
+			<!--  <property name="hibernate.connection.url"
+				value="jdbc:mysql://localhost:3306/manager_rpc?useUnicode=true&amp;characterEncoding=utf-8" />-->
+			<!--  <property name="hibernate.connection.url"
+				value="jdbc:mysql://172.17.14.4:3306/manager_rpc?useUnicode=true&amp;characterEncoding=utf-8" />
+			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
+			<property name="hibernate.connection.username" value="root" />
+			<property name="hibernate.connection.password" value="root" /> -->
+			
+			<!--  <property name="hibernate.connection.url"
+				value="jdbc:mysql://localhost:3306/myqdp_hlt?useUnicode=true&amp;characterEncoding=utf-8" />
+			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
+			<property name="hibernate.connection.username" value="root" />
+			<property name="hibernate.connection.password" value="root" />
+			
+			<property name="hibernate.connection.url"
+				value="jdbc:oracle:thin:@buypp.com.cn:1521:orcl" />
+			<property name="hibernate.connection.driver_class" value="oracle.jdbc.OracleDriver" />
+			<property name="hibernate.connection.username" value="manager_lottery" />
+			<property name="hibernate.connection.password" value="manager_lottery" />  -->
+			
+			
+			
+			<property name="hibernate.connection.autocommit" value="false" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.format_sql" value="false" />
+			<property name="javax.persistence.validation.mode" value="none" />
+
+
+			<property name="hibernate.connection.provider_class"
+				value="org.hibernate.connection.C3P0ConnectionProvider" />
+			
+			<!-- <property name="c3p0.debugUnreturnedConnectionStackTraces" value="true"/>
+			<property name="c3p0.unreturnedConnectionTimeout" value="180"/>
+			<property name="c3p0.maxConnectionAge" value="3600"/>
+			<property name="c3p0.maxIdleTimeExcessConnections" value="6"/> -->
+			
+  
+			<!-- 最小连接数 -->
+			<property name="hibernate.c3p0.min_size" value="5" />
+			<property name="hibernate.c3p0.initial_pool_size" value="10" />
+			<!-- 最大连接数 -->
+			<property name="hibernate.c3p0.max_size" value="300" />
+			<!--最大空闲时间,60秒内未使用则连接被丢弃。若为0则永不丢弃。Default: 0 -->
+			<property name="hibernate.c3p0.maxIdleTime" value="60" />
+			<!-- 获得连接的超时时间,如果超过这个时间,会抛出异常，单位毫秒 -->
+			<property name="hibernate.c3p0.timeout" value="2000" />
+			 <property name="hibernate.c3p0.idleConnectionTestPeriod" value='60'/>
+			<!-- 最大的PreparedStatement的数量 -->
+			<property name="hibernate.c3p0.max_statements" value="100" />
+			<property name="hibernate.c3p0.max_statements_per_connection" value="0" />
+			<!-- 每隔120秒检查连接池里的空闲连接 ，单位是秒 -->
+			<property name="hibernate.c3p0.idle_test_period" value="120" />
+			<!-- 当连接池里面的连接用完的时候，C3P0一下获取的新的连接数 -->
+			<property name="hibernate.c3p0.acquire_increment" value="3" />
+			<!-- 是否每次都验证连接是否可用 -->
+			<property name="hibernate.c3p0.validate" value="false" />
+		</properties>
+	</persistence-unit>
+</persistence>  
+ 

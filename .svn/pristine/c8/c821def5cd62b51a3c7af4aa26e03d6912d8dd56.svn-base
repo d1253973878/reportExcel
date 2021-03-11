@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+var AppParam={
+		goMainPage:"MainIndexServlet",//返回主页链接地址
+		application:{
+			pageHint:'流程平台',//进入应用系统的页面提示
+			applicationTitle:"流程平台",//应用系统名称
+			login:{
+				title:'流程平台',//登陆页面的标题,可使用html标签
+				logo:'index_img/logo.png',//登陆页面的logo图标
+				pageHint:'流程平台'//登陆页面链接页面提示
+			},
+			openPage:{
+				"4028b881628953b401628962b6420000":{//appId
+					id:"402880b963a44dcc0163a5f19fcd0000",//菜单id
+					selectNode:true//是否打开首页的时候同时显示
+				},
+				"3MKJDDCPE083I19MXO6TWXAQX0AHJ5YC":{//appId
+					id:"f949a60c542722fa01542775a529001b",//菜单id
+					selectNode:true//是否打开首页的时候同时显示
+				},
+				"402880ec4125a17c014125bd48140003":{//appId
+					id:"402880ec4125a17c014125d2b467000b",//菜单id
+					selectNode:true//是否打开首页的时候同时显示
+				},
+			},
+		},
+		main:{//单点登录主页
+			title:'<p>湘西州一体化数据共享服务平台暨大数据管理集成操作台</p>',//可使用html标签
+			logo:'index_img/logo.png',
+			pageHint:'湘西州一体化数据共享服务平台暨大数据管理集成操作台',
+		}
+}

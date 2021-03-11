@@ -1,0 +1,49 @@
+.add-com-table-div>.add-com-table>.add-com-head>tr>th{
+		    background: #e8e8e8;
+			padding: 10px 0;
+		}
+		.add-com-table-div>.add-com-table>.add-com-body>tr>td{
+			padding:0;
+			border: 0;
+		}
+		.add-com-table-div>.add-com-table>.add-com-body>tr>td>div.item{
+		   border-left: 1px solid #ddd;
+		   border-bottom: 1px solid #ddd;
+		   position: relative;
+		   padding: 8px;
+		}
+		.add-com-table-div>.add-com-table>.add-com-body>tr>td:last-child>div.item{
+		   border-right: 1px solid #ddd;
+		   position: relative;
+		}
+		.add-com-table-div>.add-com-table>.add-com-body>tr>td>div.item>input{
+		    height: 31px;
+		    width: 100%;
+		    border: 1px solid #ddd;
+		    outline: none;
+		    padding-right: 28px;
+		    padding-left: 8px;
+		}
+		.add-com-table-div>.add-com-table>.add-com-body>tr>td>div.item>.plus{
+		    position: absolute;
+		    top: 0;
+		    bottom: 0;
+		    height: 16px;
+		    margin: auto;
+		    right: 15px;
+		    color: #fff;
+		    background: #2277ee;
+		    width: 16px;
+		    text-align: center;
+		    line-height: 15px;
+		    border-radius: 4px;
+		    cursor: pointer;
+		    color: #FFFFFF;
+		}
+		.add-com-table-div>.add-com-table>.add-com-body>tr>td>div.item>.oper-btn{
+			height:31px;
+			line-height: 31px;
+			text-align: center;
+			color: red;
+			cursor: pointer;
+		}

@@ -1,0 +1,64 @@
+.menuul{
+	list-style: none;
+	padding:0;
+	margin:2px 0 0 0;
+	background: #0A1639;
+	width:180px;
+	height:100%;
+}
+.menuul li{
+	height:auto;
+	display:block;
+}
+.newtec-menu{
+	padding: 0;
+}
+.newtec-menu ul.nav>li.active{
+	background:#162C6A !important;
+}
+.newtec-menu ul.nav>li{
+	color:white;
+	height:45px;
+	line-height:45px;
+}
+.newtec-menu ul.nav.nav-active>li{
+	height:auto
+}
+.newtec-menu ul.nav>li.nav-header, .newtec-menu ul.nav>li.rows{
+	padding:0;
+}
+.newtec-menu ul.nav>li.nav-header:hover, .newtec-menu ul.nav>li.rows:hover{
+	background:#162C6A;
+	cursor:pointer;
+}
+.menuul .header img{
+	width:22px;
+	height:22px;
+	margin-right:10px;
+	margin-bottom:2px;
+}
+.newtec-menu>ul.nav>li.nav-header{
+	font-size: 14px;
+}
+.newtec-menu ul.nav>li>.icon{
+	width: 16px;
+    height: 16px;
+    margin-bottom: 2px;
+}
+.newtec-menu>ul.nav>li{
+	width:180px;
+}
+.newtec-menu ul.nav>li.nav-header.h-row:after{
+	content: "\f107";
+    float: right;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    font-size: 22px;
+    margin-right: 10px;
+    margin-top:1px
+}
+.newtec-menu ul.nav.nav-active>li.nav-header.h-row:after{
+	content: "\f106";
+}

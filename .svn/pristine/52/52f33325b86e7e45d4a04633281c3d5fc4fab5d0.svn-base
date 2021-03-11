@@ -1,0 +1,10 @@
+<meta charset="utf-8">
+<title>newtecchart demo</title>
+<script src="./newtecchart.umd.js"></script>
+
+<link rel="stylesheet" href="./newtecchart.css">
+
+
+<script>
+console.log(newtecchart)
+</script>

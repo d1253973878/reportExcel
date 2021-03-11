@@ -1,0 +1,52 @@
+html{
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: auto !important;
+}
+body{
+	height: 100%;
+}
+.newtec-page{
+	position: relative;
+}
+.newtec-page.height100{
+	height:100%;
+}
+.newtec-page>.page-item{
+	margin: 10px 0;
+}
+.newtec-page>.page-item.page-top .t-item{
+	float: left;
+}
+.newtec-page>.page-item.page-top .t-item>button{
+	height: 100%;
+}
+.newtec-page.searchpage>.page-minddle{
+	position: absolute;
+	width: 100%;
+}
+.search-div>.search-input{
+    width: 300px;
+    border: 1px solid #ddd;
+    outline: none;
+    padding: 6px 12px;
+}
+.search-div>.glyphicon-search{
+    top: 2px;
+    width: 80px;
+    background: #2277ee;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 16px;
+}
+.search-div>.search-input,
+.search-div>.glyphicon-search,
+.newtec-page>.page-item.page-top .t-item{
+	height: 32px;
+}

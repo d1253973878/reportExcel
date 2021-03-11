@@ -1,0 +1,72 @@
+.treegrid-indent {float:left;width:16px; height: 16px; display: inline-block; position: relative;}
+
+.treegrid-expander {float:left;width:16px; height: 16px; display: inline-block; position: relative; cursor: pointer;}
+
+/* .treegrid-expander-expanded{background-image: url(../../images/tree/collapse.png); }
+.treegrid-expander-collapsed{background-image: url(../../images/tree/expand.png);} */
+.treegrid-expander>img{
+	display: none;
+}
+.treegrid-expander-expanded>img,
+.treegrid-expander-collapsed>img{
+	display: block;
+}
+.tree ul>li>a>.check-box{
+	display: inline-block;
+	border: 1px solid #9a9595;
+	width: 15px;
+    height: 15px;
+    float:left;
+    margin: 2px;
+}
+.tree ul>li>a>.check-box.ok>.item{
+	 display: block;
+    border-bottom: 2px solid #756e6e;
+    height: 14px;
+    margin-left: 3px;
+    width: 8px;
+    margin-top: -2px;
+    border-right: 2px solid #756e6e;
+    transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+}
+.dropdown-menu>li>a>i{
+	margin-right: 5px;
+}
+.newtec-treegrid-layout{
+	height: 100%;
+}
+.tree ul{
+	list-style-type: none;
+	padding: 0;
+    margin: 0;
+}
+.tree.table-bordered ul>li.tree_row{
+	border-top: 1px solid #ddd;
+	padding: 5px 0;
+}
+.tree.table-bordered>ul:first-child>li.tree_row:first-child{
+	border-top: 0;
+}
+.tree ul.row-close>li.row-child{
+	display: none;
+}
+.tree ul.tree-parent-row>li:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.tree ul.tree-parent-row>li>a{
+	float: left;
+}
+.tree ul>li>a{
+	outline: none;
+    text-decoration: none;
+    color: black;
+}

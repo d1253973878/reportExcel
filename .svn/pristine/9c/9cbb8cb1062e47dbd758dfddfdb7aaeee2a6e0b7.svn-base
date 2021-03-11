@@ -1,0 +1,4 @@
+appIds=402880946d016765016d016b2d930000
+
+jsonSessionPersonManager = com.newtec.router.session.person.manager.JsonSessionPersonManager
+urlSessionPersonManager  = com.newtec.router.session.person.manager.UrlSessionPersonManager

@@ -1,0 +1,27 @@
+entity.app.package=*
+
+entity.myqdp.package=com.newtec.myqdp.entity.*
+
+show_sql=true
+format_sql=false
+connection.useUnicode=true
+connection.characterEncoding=UTF-8
+max_fetch_depth=3
+hbm2ddl.auto=none
+jdbc.fetch_size=18
+jdbc.batch_size=10
+
+c3p0.max_size=30
+c3p0.min_size=5
+c3p0.timeout=120
+c3p0.max_statements=100
+c3p0.idle_test_period=120
+c3p0.acquire_increment=2
+c3p0.validate=true
+
+atomikos.poolSize=2
+atomikos.minPoolSize=1
+atomikos.maxPoolSize=5 
+atomikos.transactionTimeout=300
+
+atomikos.testQuery=select 1 from dual 

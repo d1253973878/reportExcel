@@ -1,0 +1,201 @@
+/* ----------------form */
+.newtec-form>.form-body.table{
+	padding:0;
+	border-top:1px solid #a9a5a5;
+	border-left:1px solid #a9a5a5;
+	margin: 0 12px;
+}
+.newtec-form>.form-body .form-group{
+	margin-left: 0;
+    margin-right: 0;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+
+.newtec-form>.form-body .col-input{
+	background-color: #fff;
+}
+.newtec-form>.form-body .col-value{
+	min-height:30px;
+}
+.newtec-form>.form-body .col-value .col-input{
+	color: inherit;
+	font-size: inherit;
+	width:100%;
+	padding:4px 12px;	
+    border-radius: 4px;
+    border: 1px solid #ddd;
+   /*  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;  */
+}
+.newtec-form>.form-body.bottomBorder .col-value .col-input{
+	outline: none;
+}
+.newtec-form>.form-body.table .form-group{
+	margin:0;
+	padding:0;
+	border-bottom:1px solid ;
+	border-right:1px solid; 
+	border-color:#a9a5a5;
+	color:#676666;
+}
+.newtec-form>.form-body .group-title{
+	white-space:nowrap;
+	padding-left: 0;
+}
+.newtec-form>.form-body .group-title.left{
+	text-align: left;
+	padding-right: 0;
+	padding-left: 12px;
+}
+.newtec-form>.form-body .group-title.center{
+	text-align: center;
+	padding-right: 0;
+}
+.newtec-form>.form-body.table .col-value{
+	border-left:1px solid #a9a5a5;
+}
+.newtec-form>.form-body.bottomBorder .col-value,
+.newtec-form>.form-body.table .col-value{
+	padding:0;
+}
+.newtec-form>.form-body.table .col-input,
+.newtec-form>.form-body.bottomBorder .col-input{
+	border:0;background:transparent;
+}
+.newtec-form>.form-body.bottomBorder .col-value{
+	border-bottom:1px solid #a9a5a5;
+}
+.newtec-form>.form-body .form-group>.glyphicon-edit{
+	opacity:0.5;
+	position: absolute;
+	z-index: 1003;
+	top: 50%;
+	right: 0px;
+	height: 12px;
+	width: 12px;
+	font-size:12px;
+}
+.newtec-form>.form-footer{
+	padding:0 43px;
+}
+.multiselectDiv .radio{padding:5px 3px}
+.multiselectDiv input[type=radio].ace:checked+.lbl::before { content: none;}
+.multiselectDiv input[type=radio].ace:checked+.lbl::before { content: none;}
+.multiselectDiv input[type=radio].ace+.lbl::before {content: none;}
+/*text-area  */
+.newtec-form>.form-body .col-value textarea.col-input{
+	height:60px;
+}
+/*text-color  */
+.newtec-form>.form-body .form-group .text-color{
+	position:absolute;
+	top:0px;
+	right:18px;
+	height:24px;
+	width:24px;
+	bottom: 0;
+    margin: auto 0;
+}  
+/*radio-item  */
+.newtec-form>.form-body .col-value .text-btn{
+	position: relative;
+    padding-right:100px;
+    padding:0;
+}
+.newtec-form>.form-body .col-value .text-btn>.btn-input{
+	height: 100%;
+    width: 100%;
+    padding-right:100px;
+}
+
+.newtec-form>.form-body .newtec-file>.item>button,
+.newtec-form>.form-body .col-value .text-btn>.btn{
+	position: absolute;
+    height: 100%;
+    top: 0;
+    width: 100px;
+    right: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: inherit;
+}
+.newtec-form>.form-body.bottomBorder .newtec-file>.item>button,
+.newtec-form>.form-body.bottomBorder .col-value .text-btn>.btn,
+.newtec-form>.form-body.table .newtec-file>.item>button,
+.newtec-form>.form-body.table .col-value .text-btn>.btn{
+	border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+/*file-item  */
+
+.newtec-form>.form-body .newtec-file{
+	width: 100%;
+	
+}
+.newtec-form>.form-body .newtec-file>.item{
+	margin: 0;
+}
+/*datetime*/
+.newtec-form>.form-body .select-datetime>.newtec-dateTime{
+	width: 100%;
+}
+.newtec-form>.form-body .text-double>input.col-input,
+.newtec-form>.form-body .select-datetime.double>.newtec-dateTime{
+	width:45%;
+}
+.newtec-form>.form-body .text-double>.mind-title,
+.newtec-form>.form-body .select-datetime.double>.mind-title{
+	width:10%;
+	display: inline-block;
+	text-align: center;
+}
+/*checkbox col-value*/
+.newtec-form>.form-body .col-value>.checkbox-inline{
+	margin-left: 0;
+	margin-right:15px;
+}
+.newtec-form>.form-body .col-input,
+.newtec-form>.form-body .col-value .col-input,
+.newtec-form>.form-body .col-value .text-btn,
+.newtec-form>.form-body .newtec-dateTime,
+.newtec-form>.form-body .newtec-file,
+.newtec-form>.form-body .newtec-myselect{
+	height: 30px;
+}
+.newtec-myLayout>.item{
+	float: left;
+	padding: 0 5px;
+}
+.newtec-myLayout>.item>div,
+.newtec-myLayout>.item>input{
+	width: 100%;
+	height: 30px;
+}
+.newtec-myLayout>.item>input{
+	padding: 8px 5px;
+}
+.newtec-myLayout>.item .newtec-myselect{
+	min-width:auto;
+}
+
+input[type=text],
+input[type=password],
+input[type=file]{
+	outline: none;
+}
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=text]:hover,
+input[type=password]:hover,
+.newtec-form>.form-body .col-value input[type=text].col-input:focus,
+.newtec-form>.form-body .col-value input[type=password].col-input:focus,
+.newtec-form>.form-body .col-value input[type=text].col-input:hover,
+.newtec-form>.form-body .col-value input[type=password].col-input:hover{
+	border: 1px solid #179ADE;
+}

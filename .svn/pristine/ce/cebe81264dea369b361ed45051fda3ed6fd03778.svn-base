@@ -1,0 +1,11 @@
+.date-time{
+	
+}
+.date-time>.input-group-addon{
+	display: inline-block;
+    position: absolute;
+    right: 6px;
+    top: 3px;
+    border: 0;
+    background: transparent;
+}

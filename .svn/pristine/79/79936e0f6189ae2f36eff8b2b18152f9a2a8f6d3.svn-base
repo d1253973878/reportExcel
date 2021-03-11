@@ -1,0 +1,48 @@
+#--------框架-----------
+
+#集群端口号
+clusterPort=23354
+#调用端口号
+callPort=9998
+#是否为客户端
+clientMode=false
+#是否忽略本地
+#ignoreLocalMethod=true
+#节点名字 
+#name=AAA
+#日志级别
+printLevel=warn
+#连接数量
+connections=1
+
+isPrintLog=true
+
+#-----------调用----------
+
+#服务器处理调用线程池配置
+callMinPoolSize=50
+callMaxPoolSize=100
+# 远程调用选择指标
+# cpu闸值%,比如80%意味着cpu占用高于80%的节点不调用
+cpuGate=99
+# 内存闸值Mb，比如500Mb意味剩余可以内存小于500Mb的节点不调用
+freeMemoryGate=0
+# 网络闸值ms，比如5意味调用耗时时间大于5秒的节点不调用
+networkGate=15000
+# IO闸值%
+ioGate=90
+
+#--------集群----------
+
+#监控信息存入数据库的时间间隔设置
+monitor2DbTime=30
+#集群信息定时更新的时间间隔设置
+clusterUpdateTime=30
+#重连周期
+reconnectTime=15
+
+rpcCall=com.newtec.router.rpc.server.RouterRPCCall
+
+authLevelModel= None
+monitorStart=true
+dbConnectId=report_rpc_id

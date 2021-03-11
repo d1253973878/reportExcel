@@ -1,0 +1,65 @@
+@import '~antd/es/style/themes/default.less';
+
+.reportList {
+  :global {
+
+    .ant-col,
+    .ant-col>div {
+      height: 100%;
+    }
+  }
+}
+
+.toolRow {
+  transform: translateY(-3px);
+  height: 27px;
+  line-height: 27px;
+  border-bottom: 1px solid @border-color-base;
+  border-left: 1px solid @border-color-base;
+  border-right: 1px solid @border-color-base;
+}
+
+.btnGroup {
+  text-align: right;
+}
+
+.newButton {
+  width: 100%;
+  font-size: 1.2em;
+  height: calc(100% - 20px);
+  color: @text-color-secondary;
+  background-color: @component-background;
+  border-color: @border-color-base;
+}
+
+.toolBtn {
+  & {
+    cursor: pointer;
+    text-align: right;
+  }
+
+  &:hover {
+    color: #1890ff;
+  }
+}
+
+.reportTitle {
+  padding-left: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.itemLayer {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 32px;
+  background-color: rgba(29, 38, 46, 0.6);
+  width: calc(100% - 64px);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #00baff;
+}

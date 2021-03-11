@@ -1,0 +1,91 @@
+table.treetable * {
+    border-color: #E9E9E9 !important;
+}
+
+table.treetable th {
+    text-align: center;
+    background: #F7FDFD;
+}
+
+table.treetable td, table.treetable th {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    position: relative;
+    vertical-align: middle !important;
+}
+
+table.treetable .td-tab {
+    margin-right: 8px;
+}
+
+table.treetable .td-tab .iconfont {
+    color: #666866;
+    font-size: 20px;
+}
+
+table.treetable .auto-toogle-icon:hover{
+    color: #217AE2;
+}
+
+table.treetable .tree-node-icon{
+    color: #000;
+    font-size: 18px;
+}
+
+table.treetable .td-tab:link {
+    text-decoration: none;
+}
+
+table.treetable .td-tab:visited {
+    text-decoration: none;
+}
+
+table.treetable .td-tab:hover {
+    text-decoration: none;
+}
+
+table.treetable .td-tab:active {
+    text-decoration: none;
+}
+
+table.treetable .nodename.nonleaf {
+    font-size: 14px;
+    color: #217AE2;
+    cursor: pointer;
+}
+
+table.treetable .td-tools {
+    position: absolute;
+    right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+table.treetable .text-initial {
+    color: #000000;
+}
+
+table.treetable .text-success {
+    color: #00B470;
+}
+
+table.treetable .text-fail {
+    color: #FF0000;
+}
+
+table.treetable .glyphicon {
+    color: #000;
+}
+
+table.treetable .process-icon {
+    padding-bottom: 4px;
+    color: #217AE2;
+    width: 22px;
+    height: 22px;
+}
+
+table.treetable .folder-icon {
+    padding-right: 4px;
+    padding-bottom: 4px;
+}

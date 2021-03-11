@@ -1,0 +1,111 @@
+/*默认皮肤*/
+.no-skin .navbar .navbar-brand,
+.no-skin .top-nav2 ul li a,
+.navbar-buttons .n-btn,
+.no-skin .newtec-menu-div,
+.no-skin .foot-copy{
+	 color:#fff;
+}
+
+.no-skin .top-nav2 ul li a {
+    font-size: 16px;
+}
+.no-skin .color1 {
+    background-image: -o-linear-gradient(left, #385e88 0%, #3f6186 100%);
+    background-image: -moz-linear-gradient(left, #385e88 0%, #3f6186 100%);
+    background-image: -webkit-linear-gradient(left, #385e88 0%, #3f6186 100%);
+    background-image: -ms-linear-gradient(left, #385e88 0%, #3f6186 100%);
+    background-image: linear-gradient(to left, #385e88 0%, #3f6186 100%);
+
+}
+.no-skin .menu-min li,
+.no-skin .menu-min li li,
+.no-skin .color1,
+.no-skin .newtec-menu-div{
+	background-color: #3f6186;
+}
+.no-skin .newtec-menu ul.nav>li.nav-header.active {
+    background: #7096bf !important; 
+}
+.no-skin .newtec-menu ul.nav>li.rows.active {
+    background: #518ed0 !important; 
+}
+.no-skin  .newtec-menu ul.nav>li.rows {
+    background: #1c5592; 
+}
+.newtec-menu ul.nav>li.nav-header, .newtec-menu ul.nav.nav-active>li.rows {
+    border-bottom: 1px solid #49719d;
+}
+.newtec-menu ul.nav>li.nav-header,
+.newtec-menu ul.nav.nav-active>li.rows{
+	border-bottom: 1px solid #49719d;
+}
+.no-skin .page-tabs{
+	background-color: #e8ebf3;
+}
+.no-skin .page-tabs a{
+	color: black;
+}
+.no-skin .page-tabs a.active{
+	background-color: #fff;
+    color: #000;
+}
+.newtec-menu ul.nav>li.nav-header:hover, .newtec-menu ul.nav>li.rows:hover {
+    color: #fff;
+    background: #9ac0f5;
+}
+/*黑色皮肤*/
+.black-skin .navbar .navbar-brand,
+.black-skin .top-nav2 ul li a,
+.black-skin .navbar-buttons .n-btn,
+.black-skin .newtec-menu-div,
+.black-skin .menu-min .sub li:hover a，
+.black-skin .foot-copy{
+	 color:#bdb6b6;
+}
+.black-skin .topNavTab.active{
+	border-color:#bdb6b6;
+}
+.black-skin .color1 {
+    background-image: -o-linear-gradient(left, #191919 0%, #080d11 100%);
+    background-image: -moz-linear-gradient(left, #191919 0%, #080d11 100%);
+    background-image: -webkit-linear-gradient(left, #191919 0%, #080d11 100%);
+    background-image: -ms-linear-gradient(left, #191919 0%, #080d11 100%);
+    background-image: linear-gradient(to left, #191919 0%, #080d11 100%);
+
+}
+.black-skin .menu-min li,
+.black-skin .menu-min li li,
+.black-skin .color1,
+.black-skin .newtec-menu-div{
+	background-color: #191919;
+}
+.black-skin .newtec-menu ul.nav>li.rows.active,
+.black-skin .newtec-menu ul.nav>li.nav-header.active ,
+.black-skin .newtec-menu ul.nav>li.nav-header:hover,
+.black-skin  .newtec-menu ul.nav>li.rows:hover {
+    background: #a1a5a9 !important; 
+}
+.black-skin  .newtec-menu ul.nav>li.rows {
+    background: #080d11; 
+}
+.black-skin .newtec-menu ul.nav>li.nav-header,
+.black-skin .newtec-menu ul.nav.nav-active>li.rows {
+    border-bottom: 1px solid #4a4a4a;
+}
+.black-skin .newtec-menu ul.nav>li.nav-header,
+.black-skin .newtec-menu ul.nav.nav-active>li.rows{
+	border-bottom: 1px solid #4a4a4a;
+}
+.black-skin .page-tabs{
+	background-color: #5e6063;
+}
+.black-skin .page-tabs a{
+	color: black;
+}
+.black-skin .content-tabs button,
+.black-skin .content-tabs button:hover,
+.black-skin .black-skin .main-content,
+.black-skin .page-tabs a.active{
+	background-color: #d2caca;
+}

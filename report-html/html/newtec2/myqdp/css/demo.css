@@ -1,0 +1,101 @@
+/*css reset*/
+button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-block}progress,sub,sup{vertical-align:baseline}html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0} menu,article,aside,details,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{}button,select{text-transform:none}[type=submit], [type=reset],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}/*# sourceMappingURL=normalize.min.css.map */
+html,body{height:100%;}
+.body {width:1180px;margin:0 auto;}
+/* border-color:#ddd */
+.link {width:100%;height:45px;background:#D1D4D6;text-align:center;padding-top:10px;}
+
+
+a ,a:active,a:HOVER{text-decoration:none;color:black;}
+.active_bR{  background-color: #E88A8A !important;}
+.active_bR a{ color:#fff;}
+.active_r{
+     color: red !important; 
+}
+.active_bor{
+	border: 1px solid red !important;
+	outline:none;
+}
+.btn-submit{
+    background-color: red;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 800;
+    border: 1px solid #9E9C9C;
+    outline:none;
+    -moz-opacity:0.8; -khtml-opacity:0.8;opacity:0.8;
+}
+.btn-method{
+	background: #fff;
+    color: #757272;
+    font-size: 16px;
+    height: 36px;
+    min-width: 90px;
+    border: 1px solid #ddd;
+    margin-left: 25px;
+    margin-right: 40px;
+}
+button{
+	-moz-opacity:0.8; -khtml-opacity:0.8;opacity:0.8;
+}
+button:active{
+	-moz-opacity:1; -khtml-opacity:1;opacity:1;
+}
+
+.btn-submit:active{
+	-moz-opacity:1; -khtml-opacity:1;opacity:1;
+}
+.box-shadow{
+	-webkit-box-shadow: 3px 3px 3px; -moz-box-shadow: 3px 3px 3px;box-shadow:3px 3px 3px; 
+}
+.clear {clear:both;}
+.disabled { pointer-events: none; -moz-opacity:0.4; -khtml-opacity:0.4;opacity:0.4;color:#695959;}
+.font20-gray{
+   font-size: 20px;
+   font-weight:600;
+   color: #8C8686;
+}
+
+.inline-block,.inline-block>li{display:inline-block;}
+.input_min{
+	    left: 0;
+    padding: 4px;
+    width: 733px;
+    height: 36px;
+    border: 1px solid #f10215;
+    line-height: 25px;
+    font-size: 14px;
+    color: #989898;
+    position: absolute;
+    padding: 3px 10px;
+}
+input{padding:0 3px;}
+/* active */
+.nav li.active{
+	color:red !important;
+	text-decoration:none;
+}
+.newtec_slidebox li.active{background-color: red !important;}
+.newtec_list_a .active{border:1px solid red;}
+
+
+.rotate180{ transform: rotate(180deg);transition: 0.5s;}
+.rotate0{ transform: rotate(0);transition: 0.5s;}
+.title1{
+	font-size: 38px;
+    font-weight: 600;
+}
+.user-select { 
+	/*让文字不能被选中*/
+	-moz-user-select: none; /*火狐*/
+	-webkit-user-select: none; /*webkit浏览器*/
+	-ms-user-select: none; /*IE10*/
+	-khtml-user-select: none; /*早期浏览器*/
+	user-select: none;
+}
+.sendDataBtn{
+
+}
+ul.inline-block>li>a{text-decoration:none;}
+ul.inline-block>li {list-style-type:none;}
+ul{margin: 0;padding: 0;list-style: none;}

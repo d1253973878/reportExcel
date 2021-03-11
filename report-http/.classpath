@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="lib" path="lib/http-lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/http-lib/httpclient-4.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/http-lib/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/http-lib/javax.servlet-api-3.1.0.jar" sourcepath="C:/Users/pc/AppData/Local/Temp/.org.sf.feeling.decompiler1603414876830/source/javax.servlet-api-3.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="lib/log-lib/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/javaencrypt.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.boot.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.cache.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.fastjson-1.2.47.jar" sourcepath="C:/Users/pc/AppData/Local/Temp/.org.sf.feeling.decompiler1603674422012/source/fastjson-1.2.47-sources.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.files.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.http.client.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.http.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.jpa2.1.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.json.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.reflect.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.router.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.rpc.base.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.rpc.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.serialize.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.sms.json.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.system.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.tools.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.web.base.jar"/>
+	<classpathentry kind="lib" path="lib/jpa-lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="lib/jpa-lib/c3p0-0.9.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/jpa-lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/jpa-lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/jpa-lib/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="lib/jpa-lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="lib/jpa-lib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jpa-lib/mchange-commons-java-0.2.11.jar"/>
+	<classpathentry kind="lib" path="lib/jpa-lib/mysql-connector-java-5.1.38-bin.jar"/>
+	<classpathentry kind="lib" path="lib/jpa-lib/ojdbc5.jar"/>
+	<classpathentry kind="lib" path="lib/poi-lib/excelexp1_5.jar"/>
+	<classpathentry kind="lib" path="lib/poi-lib/excelimp1_5.jar"/>
+	<classpathentry kind="lib" path="lib/poi-lib/poi-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="lib/poi-lib/poi-ooxml-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="lib/poi-lib/poi-ooxml-schemas-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="lib/poi-lib/poi-scratchpad-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="lib/poi-lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/xml-lib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/xml-lib/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="lib/xml-lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/xml-lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="lib/xml-lib/xmlpull-1.1.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/xml-lib/xpp3_min-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="lib/xml-lib/xstream-1.4.9.jar"/>
+	<classpathentry kind="lib" path="lib/zip-lib/java-unrar-0.3.jar"/>
+	<classpathentry kind="lib" path="lib/zip-lib/zip4j_1.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/reflect-lib/asm-5.0.3.jar"/>
+	<classpathentry kind="lib" path="lib/reflect-lib/cglib-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/reflect-lib/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="lib/rpc-lib/netty-all-4.1.14.Final.jar" sourcepath="C:/Users/pc/AppData/Local/Temp/.org.sf.feeling.decompiler1599008175382/source/netty-all-4.1.14.Final-sources.jar"/>
+	<classpathentry kind="lib" path="lib/rpc-lib/sigar.jar"/>
+	<classpathentry kind="lib" path="lib/serialize-lib/objenesis-2.4.jar"/>
+	<classpathentry kind="lib" path="lib/serialize-lib/protostuff-api-1.0.10.jar"/>
+	<classpathentry kind="lib" path="lib/serialize-lib/protostuff-collectionschema-1.0.10.jar"/>
+	<classpathentry kind="lib" path="lib/serialize-lib/protostuff-core-1.0.10.jar"/>
+	<classpathentry kind="lib" path="lib/serialize-lib/protostuff-runtime-1.0.10.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.myqdp.client7.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/newtec.sso.client.jar"/>
+	<classpathentry kind="lib" path="lib/newtec-lib/hutool-all-5.3.8.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/report-common"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

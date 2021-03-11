@@ -1,0 +1,412 @@
+
+.newtec-mycanvas>.canvas-head{
+	position: absolute;
+	top:0;
+	height: 40px;
+	width: 100%;
+	background: #f3f3f7;
+}
+.newtec-mycanvas>.canvas-head>.top-title{
+	font-size: 14px;
+    padding: 10px 0;
+    display: inline-block;
+    background: #40434c;
+    color: #fff;
+    width: 61px;
+    text-align: center;
+}
+.newtec-mycanvas>.canvas-head>.btn-div{
+	padding: 5px;
+}
+.newtec-mycanvas>.canvas-head>.btn-div>.btn-blue{
+	background: #0597e2;
+	color: #fff;
+}
+.newtec-mycanvas>.canvas-head>.btn-div>.btn{
+	height: 30px;
+	padding: 3px 12px;
+	margin-left: 10px;
+}
+.newtec-mycanvas>.canvas-head>.btn-div>.btn>img{
+	width: 18px;
+    margin-right: 8px;
+    position: relative;
+    top: -1px;
+}
+.newtec-mycanvas>.canvas-head>.btn-div>span{
+	margin-right: 15px;
+	padding: 5px;
+	display: inline-block;
+	cursor: pointer;
+}
+.newtec-mycanvas>.canvas-head>.btn-div>span.a-ative{
+	background: #d5d5df;
+	border-radius: 4px;
+}
+.newtec-mycanvas>.canvas-head>.btn-div>span>img{
+	width: 20px;
+}
+.newtec-mycanvas>.canvas-main>.main-body.select-draging>.raphael-canvas{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height:100%;
+}
+.newtec-mycanvas>.canvas-main>.main-body.select-draging>.raphael-canvas{
+	z-index: 10;
+}
+.newtec-mycanvas>.canvas-left{
+	position: absolute;
+	top:40px;
+	height: 100%;
+	width: 60px;
+	background: #f3f3f7;
+}
+.newtec-mycanvas>.canvas-left>.org-item{
+	margin: 10px;
+	text-align: center;
+}
+.bpm-body{
+	position: absolute;
+	top:0;
+	left:0;
+	bottom: 0;
+	right: 0;
+	min-height: 1200px;
+}
+.bpm-body>.h-line{
+	position: absolute;
+	top:0;
+	height: 100%;
+	background:#ddd;
+	width: 1px;
+}
+.bpm-body>.v-line{
+	position: absolute;
+	left:0;
+	width: 100%;
+	background:#ddd;
+	height: 1px;
+}
+.newtec-mycanvas>.menu-layout{
+	position: absolute;
+	left:10px;
+	top:50px;
+	bottom: 50px;
+	width: 100px;
+	background: #fff;
+	z-index: 10;
+	height: 400px;
+	-webkit-box-shadow: 1px 1px 1px; -moz-box-shadow: 1px 1px 1px;box-shadow:1px 1px 1px; 
+}
+.newtec-mycanvas>.menu-layout>.m-title{
+	text-align: center;
+	font-weight: 600;
+	background: #ddd;
+    padding: 8px;
+    border-bottom: 1px solid black;
+}
+.newtec-mycanvas.menu-layout>.m-body>.n-item{
+	padding: 4px 9px;
+    cursor: pointer;
+    border: 3px dotted transparent;
+     /*-moz-user-select:none;
+	-webkit-user-select:none;
+	-ms-user-select:none;
+	-khtml-user-select:none;
+	user-select:none;*/
+	 margin: 0 2px;
+	 border-radius: 6px;
+}
+
+.newtec-mycanvas>.menu-layout>.m-body>.n-item:hover{
+	background: #dcdcdc;
+}
+.newtec-mycanvas>.menu-layout>.m-body>.n-item.active{
+	border: 3px dotted #2277ee;
+}
+.newtec-mycanvas>.menu-layout>.m-body>.node-l{
+	cursor: -webkit-grab;
+}
+.newtec-mycanvas>.menu-layout>.m-body>.n-line{
+	border-bottom: 1px solid #515151;
+	margin: 5px;
+}
+.newtec-mycanvas>.menu-layout>.m-body>.n-item>img{
+	width: 25px;
+	margin-right: 5px;
+	position: relative;
+    top: -2px;
+}
+.newtec-mycanvas>.canvas-main>.main-body>.node-item{
+	cursor: pointer;
+	text-align: center;
+	position: absolute !important;
+}
+.newtec-mycanvas>.canvas-main>.main-body>.node-item.model1{
+	border: 2px solid #8c7e7e;
+    min-width: 80px;
+    border-radius: 6px;
+    height: 40px;
+    cursor: pointer;
+}
+.newtec-mycanvas>.canvas-main>.main-body>.node-item.model2{
+	border: 2px solid transparent;
+    border-radius: 60px;
+    height: 50px;
+    width: 50px;
+}
+
+.newtec-mycanvas>.canvas-main>.main-body>.node-item.selected{
+	border: 2px solid red;
+}
+.newtec-mycanvas>.canvas-main>.main-body>.node-item.model2.selected{
+	border: 2px dotted red;
+}
+.newtec-mycanvas>.canvas-main>.main-body>.node-item>.node-menu,
+.newtec-mycanvas>.canvas-main>.main-body>.node-item>.node-body{
+	position: absolute;
+}
+.newtec-mycanvas>.canvas-main>.main-body>.node-item>.node-body{
+	top:0;
+	left:0;
+	height: 100%;
+	width: 100%;
+}
+.newtec-mycanvas>.canvas-main>.main-body>.node-item.model1>.model-play1{
+	background: #fff;
+    border-radius: 6px;
+}
+.newtec-mycanvas>.canvas-main>.main-body>.node-item.model2>.model-play2>img{
+	margin-top: 3px;
+    width: 80%;
+}
+.newtec-mycanvas>.canvas-main>.main-body>.node-item>.node-body{
+	display: none;
+}
+.newtec-mycanvas>.canvas-main>.main-body>.node-item>.node-body>p{
+	 position: absolute;
+	 min-width: 100%;
+	word-break:break-all;
+}
+.newtec-mycanvas>.canvas-main>.main-body>.node-item.n-clone{
+	background: #e4e4e4;
+    border: 2px dotted;
+    opacity: 0.5;
+}
+.newtec-mycanvas>.canvas-main>.main-body>.node-item.n-clone>.node-body{
+	display: none !important;
+}
+.newtec-mycanvas>.canvas-main>.main-body>.node-item>.model-play1>p{
+	padding-top: 10px;
+}
+.newtec-mycanvas>.canvas-main>.main-body>.node-item.n-nowrap>.node-body>p{
+	 white-space:nowrap;
+}
+.newtec-mycanvas>.canvas-main>.main-body>.node-item.model1>.model-play1,
+.newtec-mycanvas>.canvas-main>.main-body>.node-item.model2>.model-play2{
+	display: block;
+}
+/*.newtec-mycanvas>.main-body>.node-item:hover>.node-menu{
+	right:0;
+	top:20px;
+	width: 80px;
+	height: 40px;
+	border: 1px solid red;
+	background: #fff;
+}*/
+.newtec-mycanvas>.canvas-main>.main-body>.node-item .node-title>input{
+	height: 30px;
+	margin: 5px;
+}
+.newtec-mycanvas>.canvas-main>.main-body .bpm-line,
+.newtec-mycanvas>.canvas-main>.main-body .bpm-select-pos{
+	width: 8px;
+	height:8px;
+	border-radius: 10px;
+	background: red;
+	position: absolute !important;
+	cursor: pointer;
+}
+.newtec-mycanvas>.canvas-main>.main-body .bpm-select-pos{
+	background: #f44336;
+	z-index: 100;
+}
+.newtec-mycanvas>.canvas-main>.main-body .bpm-line.l-active{
+	display: none;
+}
+.newtec-mycanvas>.canvas-main>.main-body .bpm-line.temp{
+	background: #9c9696;
+}
+.newtec-mycanvas>.canvas-main>.main-body .line-title{
+	position: absolute;
+	
+}
+.newtec-mycanvas>.right-menu{
+	top: 40px;
+    right: -170px;
+    bottom: 0px;
+    width: 200px;
+    position: absolute;
+    background: #f3f3f7;
+    /* -webkit-box-shadow: -1px 1px 1px; */
+   /* -moz-box-shadow: -1px 1px 1px;*/
+    /* box-shadow: -1px 1px 1px; */
+    /* border-radius: 8px 0 0 8px; */
+   
+}
+.newtec-mycanvas>.right-menu>.r-menu-title{
+	text-align: center;
+    padding: 5px 10px;
+    /* margin: 5px 10px; */
+    font-weight: 600;
+    width: 30px;
+    height: 130px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.newtec-mycanvas>.right-menu.n-open>.r-menu-title{
+	width: 100%;
+    height: auto;
+    position: relative;
+    background: #40434c;
+    color: #fff;
+}
+.newtec-mycanvas>.right-menu.n-open{
+	right:0;
+}
+.newtec-mycanvas>.right-menu>.form-div{
+	display: none;
+}
+.newtec-mycanvas>.right-menu.n-open>.form-div{
+	display: block;
+	height: calc(100% - 30px);
+}
+.newtec-mycanvas>.right-menu>.right-menu-icon{
+	position: absolute;	
+	display: none;
+    top: 3px;
+    right: 0;
+    /* bottom: 0; */
+    /* margin: auto; */
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    /* border-radius: 50px; */
+    text-align: center;
+    padding-top: 2px;
+    /* background: #fff; */
+    /* -webkit-box-shadow: -1px 1px 1px; */
+    -moz-box-shadow: -1px 1px 1px;
+    /* box-shadow: -1px 1px 1px; */
+    /* border-radius: 8px 0 0 8px; */
+    /* opacity: 0.8; */
+}
+.newtec-mycanvas>.right-menu.n-open>.right-menu-icon.i-open{
+    display: inline-block;
+}
+.newtec-mycanvas>.right-menu.n-open>.right-menu-icon.i-close{
+	display: none;
+}
+.newtec-mycanvas>.right-menu>.right-menu-icon.i-close{
+	display: inline-block;
+	left: 0;
+}
+.newtec-mycanvas>.right-menu>.right-menu-icon>img{
+	width: 18px;
+	height: 18px;
+}
+.newtec-mycanvas>.right-menu.n-open>.form-div>.row{
+	margin:0;
+}
+.newtec-mycanvas>.right-menu .form-group-div{
+	display: none;
+}
+.newtec-mycanvas>.right-menu .form-group-div>.form-item{
+	max-height: 30px;
+    overflow: hidden;
+}
+.newtec-mycanvas>.right-menu .form-group-div>.form-item.f-acitive{
+	max-height: none;
+}
+.newtec-mycanvas>.right-menu .form-group-div>.form-item>.i-title{
+	background: #dddd;
+    padding: 5px;
+    margin: 0;
+}
+.newtec-mycanvas>.right-menu .form-group-div>.form-item>.i-title>img{
+	cursor: pointer;
+	width: 18px;
+    position: relative;
+    top: -1px;
+    margin-right: 5px;
+    transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg); 	/* IE 9 */
+	-moz-transform:rotate(-90deg); 	/* Firefox */
+	-webkit-transform:rotate(-90deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-90deg); 
+}
+.newtec-mycanvas>.right-menu .form-group-div>.form-item.f-acitive>.i-title>img{
+    transform:rotate(0deg);
+	-ms-transform:rotate(0deg); 	/* IE 9 */
+	-moz-transform:rotate(0deg); 	/* Firefox */
+	-webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+	-o-transform:rotate(0deg); 
+}
+.newtec-mycanvas>.right-menu .form-group-div>.form-item>.newtec-form{
+	display: none;
+}
+.newtec-mycanvas>.right-menu .form-group-div>.form-item.f-acitive>.newtec-form{
+	display: block;
+}
+.newtec-mycanvas>.right-menu .form-group-div.f-acitive{
+	display: block;
+	height: 100%;
+}
+.newtec-mycanvas>.right-menu .newtec-form>.form-body .form-group{
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+.newtec-mycanvas>.right-menu .newtec-form>.form-body .group-title{
+	width: 80%;
+    text-align: left;
+    margin-left: 5px;
+}
+.newtec-mycanvas>.right-menu  .newtec-form>.form-body .col-value{
+	width: 90%;
+    margin-left: 6%;
+}
+.newtec-mycanvas>.right-menu .newtec-form>.form-body .col-input, 
+.newtec-mycanvas>.right-menu .newtec-form>.form-body .col-value .col-input,
+.newtec-mycanvas>.right-menu .newtec-form>.form-body .col-value .text-btn, 
+.newtec-mycanvas>.right-menu .newtec-form>.form-body .newtec-dateTime,
+.newtec-mycanvas>.right-menu .newtec-form>.form-body .newtec-file, 
+.newtec-mycanvas>.right-menu .newtec-form>.form-body .newtec-myselect{
+	height: 25px;
+}
+.newtec-mycanvas>.right-menu .newtec-form>.form-body .col-value textarea.col-input{
+	height: 60px ;
+}
+.newtec-mycanvas>.right-menu .btn-group{
+	width: 100%;
+}
+.newtec-mycanvas>.right-menu .btn-group>.btn{
+	width: 50%;
+	border-radius: 0;
+	margin: 0;
+	border-left: 0;
+}
+.newtec-mycanvas>.right-menu .btn-group>.btn:first-child{
+	border-radius: 0 0 0 8px;
+}
+.newtec-mycanvas>.right-menu .btn-group>.btn:last-child{
+	border-right:0 ;
+}
+.newtec-mycanvas>.dropdown-menu{
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}

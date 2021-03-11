@@ -1,0 +1,31 @@
+# http 端口号
+httpPort=16690
+# 是否启动 http 服务
+isHttpStart=true
+
+# https 端口号
+httpsPort=443
+# 是否启动 https 服务
+isHttpsStart=false
+# httpSSL 服务证书秘钥
+sslKey=81f96ops3995
+
+isStartHtmlCache=true
+#静态资源缓存更新时间
+staticResourceUpdateTime=5
+#静态资源类型
+staticResourceType=.html,.svg,.js,.css,.jpg,.png,.map,.woff,.woff2,.ttf,.eot,.gif
+
+httpServlets=PageServlet2
+
+#路由规则
+httpRouteType=random
+
+httpSessionTime=3000
+
+httpIngore=favicon.ico
+
+isFileStart=false
+filePath=upload
+filePort=16690
+fileUrl=http://abc.buypp.com.cn

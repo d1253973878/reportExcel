@@ -1,0 +1,36 @@
+#------ http 配置---------
+# http 端口号
+httpPort=16654
+# 是否启动 http 服务
+isHttpStart=true
+
+#------ http SSL 配置---------
+# https 端口号
+httpsPort=443
+# 是否启动 https 服务
+isHttpsStart=false
+
+#sslKey=7j3zy666k901h
+#sslKeyPath=file/www.goodloto.com.jks
+sslKey=845rbt09vz
+sslKeyPath=file/abc.buypp.com.cn.jks
+httpServletAllowOrigin=http://localhost:16670
+
+callCorePoolSize=100
+callMaxPoolSize=500
+
+#-------路由设置----------------
+#路由规则
+httpRouteType=random
+#处理servlet
+httpServlets=mpLoginOut,lotteryTerminal,lotteryFile,ObjectServlet,AuthServlet,LotteryMaLoginServlet,LotteryMpServlet,MpAuthServlet,LotteryMpLoginServlet,LotteryMpJMapServlet,LotteryWebServlet,LoginWebServlet,LotteryUserWebServlet,LotteryWxPayInformServlet,LotteryLoginOutServlet,lotteryExcel
+
+httpSessionTime=86400
+
+httpIngore=favicon.ico
+
+#-----文件服务配置-----
+isFileStart=false
+filePath=upload
+filePort=16690
+fileUrl=http://localhost

@@ -1,0 +1,100 @@
+.newtec-question{
+	position: relative;
+	min-height: 100px;
+	border: 1px solid #2277ee;
+	overflow: hidden;
+}
+.newtec-question.question-edit input[type=text]{
+	
+}
+.newtec-question>.q-sort{
+	/*position: absolute;
+    left: 0;
+    top: 0;*/
+   	float: left;
+    height: 100%;
+    width: 3%;
+    text-align: right;
+    padding: 10px 0;
+}
+
+.newtec-question>.q-content{
+	/*position: absolute;
+    left: 40px;
+    top: 0;
+    right: 0;*/
+   	width:97%;
+    float: left;
+    min-height: 100px;
+    padding: 10px;
+    /*border: 1px solid royalblue;*/
+}
+.newtec-question>.q-sort,
+.newtec-question>.q-content>.qc-title{
+	font-size: 16px;
+    font-weight: 600;
+}
+.newtec-question>.q-content>.qc-title>input{
+	border: 0;
+	outline: none;
+	width: 100%;
+}
+.newtec-question>.q-content>.qc-question{
+	margin: 0 10px;
+}
+.newtec-question>.q-content>.qc-question>.item{
+	/*margin-bottom: 20px;*/
+}
+.newtec-question>.q-content>.qc-question>.item .i-check{
+	margin-top: 8px;
+}
+.newtec-question>.q-content>.qc-question>.item .input-value{
+	border: 0px;
+    width: 600px;
+    outline: none;
+    padding: 5px;
+}
+.newtec-question>.q-content>.qc-question>.item  .input-value+.glyphicon{
+	display: none;
+}
+.newtec-question>.q-content>.qc-question>.item.active  .input-value+.glyphicon{
+	display: inline-block;
+	color: red;
+}
+.newtec-question>.q-content>.qc-question>.item.active  .input-value{
+	background: #ddd;
+}
+.newtec-question>.q-content>.qc-footer{
+	margin: 0 10px;
+}
+.newtec-question>.q-content>.qc-footer>label{
+	cursor: pointer;
+	margin-right: 10px;
+}
+.newtec-question>.q-content>.qc-footer>label>.glyphicon{
+	margin-right: 5px;	
+}
+.newtec-question input[type=text]{
+	background: transparent;
+}
+/*newtec-questionbook*/
+.newtec-questionbook .book-title{
+	font-size: 16px;
+	font-weight: 600;
+}
+.newtec-questionbook .book-title>input{
+	width: 100%;
+	border: 0;
+	outline: none;
+	padding: 10px;
+}
+.newtec-questionbook .book-opear{
+	overflow: hidden;
+}
+.newtec-questionbook .book-opear>label{
+	cursor: pointer;
+	margin: 0 5px;
+}
+.newtec-questionbook .book-body>.newtec-question{
+	margin: 10px 0;
+}

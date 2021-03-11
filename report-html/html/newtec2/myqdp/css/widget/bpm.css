@@ -1,0 +1,193 @@
+.newtec-bpm-history{
+	position: relative;
+}
+.newtec-bpm-history>.bpm-head{
+	position: relative;
+	height:130px;
+	margin: 10px;
+	border-bottom: 1px dotted #ddd;
+}
+.newtec-bpm-history .bpm-item{
+	width:150px;
+	position: absolute;
+	text-align: center;
+}
+.newtec-bpm-history .bpm-item>p{
+	height:40px;
+}
+.newtec-bpm-history .bpm-line{
+	position: absolute;
+	border-top: 2px dotted #a7a2a2;
+	width:245px;
+	top:15px;
+}
+.newtec-bpm-history .bpm-line.success{
+	border-top: 2px dotted #22ee6a;
+}
+.newtec-bpm-history .bpm-line.fail{
+	border-top: 2px dotted red;
+}
+.arrow-right {
+       width: 0;
+	    height: 0;
+	    border-top: 3px solid transparent;
+	    border-bottom: 3px solid transparent;
+	    border-left: 8px solid #a7a2a2;
+	    position: absolute;
+	    right: -9px;
+	    top: -4px;
+}
+.newtec-bpm-history .bpm-line.success>.arrow-right{
+	border-left: 8px solid #22ee6a;
+}
+.newtec-bpm-history .bpm-line.fail>.arrow-right{
+	border-left: 8px solid red;
+}
+.bpm-body>.bpm-b-item>.t-item2{
+	margin:0 20px
+}
+.bpm-body>.bpm-b-item>.t-item3{
+	width:80%;
+}
+/* newtec-bpmwin */
+.auti-win-footer{
+	text-align: right;
+}
+.auti-win-footer>button{
+	margin:0 10px;
+	width: 80px;
+}
+.auti-win-result{
+	margin-top: 10px;
+	position: absolute;
+	bottom: 10px;
+	
+}
+.auti-win-result>textarea{
+	width: 1005px;
+	height:80px;
+	border:1px solid #ddd;
+	padding:10px;
+}
+.auti-win-result.all{
+	position: relative;
+}
+.auti-win-result.all>textarea{
+	height:150px;
+	width:650px;
+}
+.c-nav-title{
+	padding:0 10px 10px;
+	border-bottom: 1px solid #ddd;
+}
+.detail-div{
+	margin: 0;
+}
+.detail-div>.col-xs-6{
+	border: 1px solid #ddd;
+	border-left:0;
+	padding:0;
+}
+.detail-div>.col-xs-6:first-child{
+	border-left: 1px solid #ddd;
+}
+.detail-div>.col-xs-6>.c-title{
+	background:#e8ebf3;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 0;
+	text-align: center;
+}
+.detail-div>.col-xs-6>textarea{
+	width:100%;
+	border: 0;
+	height: 130px;
+	resize:none;
+	outline: none;
+	padding: 10px;
+}
+.add-from>.f-item>.detail-v{
+	height: 170px;
+}
+.hint-title {
+    background: #e8ebf3;
+    margin: 0 20px;
+    font-size: 12px;
+    padding: 3px 0;
+}
+.hint-title>img {
+    width: 20px;
+    margin: 0 10px;
+}
+.task-mytab .add-from>.f-item>input, 
+.task-mytab .add-from>.f-item>.t-input, 銆�
+.task-mytab .add-from>.f-item>textarea {
+    width: 800px;
+}
+.task-mytab>.a-content{
+	position: absolute;
+    top: 15px;
+    right: 15px;
+    left: 15px;
+    bottom: 15px;
+    overflow: auto;
+}
+.task-mytab .auti-win-result{
+	padding-left: 110px
+}
+.task-mytab .auti-win-result>textarea{
+	width: 898px;
+	vertical-align: bottom;
+}
+.task-mytab>.newtec-myTab{
+	position: absolute;
+    top: 15px;
+    right: 15px;
+ 	bottom:15px;
+    left: 15px;
+}
+.task-mytab.isBPM>.newtec-myTab{
+  bottom: 100px;
+}
+.public-win.isBPM>.newtec-myTab{
+	bottom: 50px;
+}
+.public-win.isBPM .auti-win-result>input{
+	width: 750px;
+    height: 30px;
+}
+.task-mytab>.newtec-myTab>.myTab-body{
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+    top: 50px;
+    right: 0;
+    left: 0px;
+    border: 0;
+    padding:0;
+}
+.task-mytab>.newtec-myTab .myTab-body .body-item{
+	padding:0;
+	min-height: 300px;
+}
+.task-mytab>.newtec-myTab>.myTab-body .body-item .table-div{
+    height:520px;
+}
+.my-bpm{
+	height: 100%;
+}
+.my-bpm>.pull-left{
+	width:25%;
+}
+.my-bpm>.pull-left .btn-div{
+	margin-top: 30px;
+}
+.my-bpm>.pull-right{
+	width:75%;
+	position: relative;
+	height: 100%;
+	border-left: 1px solid #ddd;
+	padding-left: 10px;
+}
+.my-bpm>.pull-right .newtec-bpm-history .bpm-line{
+	width:125px;
+}

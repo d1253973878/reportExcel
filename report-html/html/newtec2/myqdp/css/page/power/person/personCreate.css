@@ -1,0 +1,132 @@
+
+.personCreate>.page-minddle{
+	height: 100%;
+	min-width: 1200ppx;
+    overflow: auto;
+}
+.personCreate>.page-minddle>.c-main {
+    height: 100%;
+    position: relative;
+}
+.personCreate>.page-minddle>.c-main>.c-left {
+    width: 350px;
+    height: 100%;
+    position: relative;
+    overflow: visible;
+    /*border: 1px solid #ddd;*/
+}
+.newtec-page>.page-minddle>.c-main>.c-right{
+	min-width: 800px;;
+	position: absolute;
+	left:360px;
+	right:0;
+	top:0;
+	bottom:0;
+	border-top: 1px solid #ddd;
+}
+.newtec-page>.page-minddle>.c-main .c-title{
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: rgb(238, 241, 249);
+    color: #8e8b8b;
+}
+.newtec-page>.page-minddle>.c-main .c-title>i{
+    top: 2px;
+    margin-right: 4px;
+    font-size: 14px;
+}
+.newtec-page>.page-minddle>.c-main>.c-left>.l-tree{
+	width:400px;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	top:39px;
+	right:1px;
+}
+.newtec-page>.page-minddle>.c-main>.c-right>.l-content{
+	position: absolute;
+   	top: 10px;
+    bottom: 10px;
+    left: 20px;
+    right: 20px;
+}
+.newtec-page>.page-minddle>.c-main>.c-right>.l-content>.r-head{
+	margin-bottom: 10px;
+	float: left;
+}
+.newtec-page>.page-minddle>.c-main>.c-right>.l-content>.r-head{
+	margin-bottom: 10px;
+	float: left;
+}
+.newtec-page>.page-minddle>.c-main>.c-right>.l-content>.r-head>.head-item{
+	margin-right: 10px;
+	float: left;
+}
+.newtec-page>.page-minddle>.c-main>.c-right>.l-content>.r-head>.head-item-right{
+	float: right;
+}
+.newtec-page>.page-minddle>.c-main>.c-right>.l-content>.r-head>.head-item>input{
+	height: 34px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    padding:0 10px;
+}
+.newtec-page>.page-minddle>.c-main>.c-right>.l-content>.r-head>.head-item>input:last-child{
+    margin-right: 0px;
+}	
+.newtec-page>.page-minddle>.c-main>.c-right>.l-content>.r-head>.head-item>.newtec-myselect{
+	min-width: 100px;
+	width:150px;
+	margin-right: 10px;
+}
+.newtec-page>.page-minddle>.c-main>.c-right>.l-content>.r-head>.head-item>.newtec-myselect:last-child{
+    margin-right: 0px;
+}	
+.newtec-page>.page-minddle>.c-main>.c-right>.l-content>.r-head>.head-item>button,
+.newtec-page>.page-minddle>.c-main>.c-right>.l-content>.ext-btn>button,
+.newtec-page>.page-minddle>.c-main>.c-right>.l-content>.r-head>.head-item-right>button{
+	height: 33px;
+}
+.newtec-page>.page-minddle>.c-main>.c-right>.l-content>.newtec-table-div.height100{
+	position: absolute !important;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+}	
+.newtec-page>.page-minddle>.c-main>.c-right>.l-content.has-btn>.newtec-table-div.height100{
+    top: 50px;
+}	
+.newtec-page>.page-minddle>.c-main>.c-right>.l-content>.ext-btn{
+	float: right;
+}	
+.newtec-page .search-btn,
+.newtec-page .red-btn,
+.newtec-page .green-btn,
+.newtec-page .purple-btn,
+.newtec-window .search-btn,
+.newtec-window .red-btn,
+.newtec-window .green-btn,
+.newtec-window .purple-btn{
+	background: #2277ee;
+	color: #fff;
+}	
+.newtec-window .default,.newtec-page .default{
+	background: #ddd;
+}	
+.newtec-window .red-btn,.newtec-page .red-btn{
+	background: red;
+}	
+.newtec-window .green-btn,.newtec-page .green-btn{
+	background: #5ed0c3;
+}	
+.newtec-window .purple-btn,.newtec-page .purple-btn{
+	background: #b13baa;
+}
+.newtec-table-div .newtec-table .newtec-tbody .newtec-nav{
+	margin: 0;padding:0;
+}
+.newtec-table-div .newtec-table .newtec-tbody .newtec-nav .nav-title{
+	padding: 0 5px;	
+}

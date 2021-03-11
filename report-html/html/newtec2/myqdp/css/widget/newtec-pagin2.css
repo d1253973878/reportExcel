@@ -1,0 +1,80 @@
+.newtec-pagin2{
+	padding:10px;
+}
+.newtec-pagin2 span{
+	margin:4px;
+	color:gray;
+}
+.newtec-pagin2 .showTotalPage span{
+	margin:4px;
+	line-height:30px;
+}
+.newtec-pagin2 .shownumbutton button{
+	margin:0 3px;
+	background-color:#f2f5fb;
+	border:1px solid #f2f5fb;
+	min-width:30px;
+	height:30px;
+	border-radius:5px;
+}
+/* .double-table .chooseButton button:nth-child(2){
+	
+} */
+.newtec-pagin2 .shownumbutton button.active{
+	background-color:#7b8aa1;
+	color:#e5f7f5;
+	outline: none;
+}
+.newtec-pagin2 .shownumbutton button.active a{
+	color:#e5f7f5;
+}
+.newtec-pagin2 .shownumbutton button a{
+	color:black;
+	text-decoration:none;
+}
+/* .newtec-pagin2 .chooseButton button.Disabled{
+	pointer-events: none;
+	opacity:0.45;
+} */
+.newtec-pagin2 .selShowNum{
+	width:100px;
+	margin:0 5px;
+}
+.newtec-pagin2 .selShowNum .newtec-myselect{
+	min-width:auto;
+	height:30px;
+}
+.newtec-pagin2 .selShowNum .newtec-myselect.show-clear>.dropdown-toggle{
+	background-color:#f2f5fb;
+	border:1px solid #f2f5fb;
+	padding-right:0;
+}
+.newtec-pagin2 .changeNowPage input{
+	height:30px;
+	width:40px;
+	background-color:#f2f5fb;
+	border:1px solid #f2f5fb;
+	margin:0 2px;
+	text-align:center;
+}
+.newtec-pagin2 .changeNowPage span{
+	margin:4px;
+}
+
+.pagin-table button{
+	margin:0 3px;
+	background-color:#f2f5fb;
+	border:1px solid #f2f5fb;
+	width:30px;
+	height:30px;
+	border-radius:5px;
+}
+.pagin-table button.active{
+	background-color:white;
+	border:1px solid white;
+}
+.pagin-table input:first-child{
+	border:none;
+	background-color: #f2f5fb;
+	cursor:default;
+}

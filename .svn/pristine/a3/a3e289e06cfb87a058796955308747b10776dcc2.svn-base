@@ -1,0 +1,18 @@
+.sqlFormArea {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  flex-direction: row;
+}
+
+.sqlFormArea form {
+  display: flex;
+  flex: 1 1 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sqlTableColumsArea {
+  width: 100%;
+  height: calc(100% - 200px);
+}

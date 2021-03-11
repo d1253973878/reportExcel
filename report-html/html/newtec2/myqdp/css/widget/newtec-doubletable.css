@@ -1,0 +1,39 @@
+.double-table>.clear-float{
+	position: relative;
+}
+.double-table .t-left,
+.double-table .t-right{
+	float: left;
+	width: 50%;
+}
+.double-table .t-left .newtec-table-div .newtec-table{
+	border-right: 0;
+}
+.double-table .t-right .newtec-table-div .newtec-table{
+	border-left: 0;
+}
+.double-table .newtec-table .t-tbody-div{
+	max-height: none !important;
+}
+.double-table.showHeader .t-left .newtec-table-div .newtec-table .newtec-thead>thead>tr{
+	height: 72px;	
+}
+.double-table.showHeader .t-right .newtec-table-div .table-header{
+	border: 1px solid #ddd;
+    border-bottom: 0 !important;
+    border-left: 0;
+    height: 36px;
+    color: #707070;
+    margin-bottom:0 !important;
+    text-align: center;
+    font-weight:700;
+}
+ .double-table.showHeader .t-right .newtec-table-div .newtec-table .newtec-tbody>tbody>tr{
+ 	border-left:0; 
+ }
+  .double-table.showHeader .t-right .newtec-table-div .newtec-table .newtec-thead>thead>tr{
+  height: 36px;
+}
+.double-table .newtec-pagin{
+	float: right;
+}

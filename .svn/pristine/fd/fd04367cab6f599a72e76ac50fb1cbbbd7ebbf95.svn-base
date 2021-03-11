@@ -1,0 +1,9 @@
+#--------lizard 集成单点的参数配置-----------
+# 单点登录地址
+ssoProjectPath = http://192.168.0.118:8181/newtec_sso1
+# 上传用户信息到 Http 的地址
+httpLoginPath = http://192.168.0.185:16654/ReportLoginServlet
+# 登录成功的处理类
+loginSucess = com.newtec.filter.ReportLoginSuccess
+# 退出登录的处理类
+logout = com.newtec.filter.ReportLogout

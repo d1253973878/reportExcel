@@ -1,0 +1,48 @@
+/* 查询圆角框 */
+/*
+css class name生成说明: cssNameIn+Hint,cssNameIn+Focused,cssNameIn
+*/
+.searchLayoutTextHint, .searchLayoutTextFocused, .searchLayoutText
+{
+	border: none;
+	outline:none;
+	font-size:15px;
+	font-family: 微软雅黑;
+	vertical-align:middle;
+	line-height:30px;/*解决字体不居中的问题。设置搜索框高度的值减5*/
+}
+/*
+css class name生成说明: cssNameIn+Hint
+*/
+.searchLayoutTextHint{
+	color:#cdcdcd;
+}
+
+.label_radius_17{
+	border: 1px solid transparent;
+	border-radius: 5px;
+    	z-index: 1000;
+    	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    	 position:absolute;
+    	  /*  margin-top:2px; */
+    	 padding:5px 15px; 
+	behavior: url(PIE.htc);
+}
+/*
+css class name生成说明: cssNameOut,cssNameOut+Focused
+*/
+.normal .searchLayout,.searchLayoutFocused
+{
+	border: 1px solid #cdcdcd;
+	border-radius: 17px;/*设置搜索框高度的值的一半*/
+	-moz-border-radius: 17px;/*设置搜索框高度的值的一半*/
+	-webkit-border-radius: 17px;/*设置搜索框高度的值的一半*/
+	z-index: 1000;
+	position:absolute;
+	behavior: url(PIE.htc);
+	/* text-align:center;
+	vertical-align:middle; */
+	padding-left:17px;/*设置搜索框高度的值的一半*/
+	padding-right:12px;/*值等于padding-left减5*/
+}

@@ -1,0 +1,12 @@
+.builderModal {
+  :global {
+    .ant-modal-body {
+      padding: 0px 24px 12px 24px;
+    }
+  }
+}
+
+.builderContainer {
+  height: 100%;
+  width: 100%;
+}

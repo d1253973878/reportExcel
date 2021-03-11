@@ -1,0 +1,655 @@
+.main-container {
+  height: 100%;
+}
+
+.main-container .text-danger {
+  color: #FF0000;
+}
+
+.main-container .top-content {
+  width: 100%;
+  height: 54px;
+  background: #108EE9;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+  font-size: 20px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  line-height: 50px;
+  padding-left: 30px;
+  color: #FFFFFF;
+}
+
+.main-container .bottom-content {
+  width: 100%;
+  min-width: 800px;
+  height: 100%;
+}
+
+.main-container .bottom-content .bottom-nav-container {
+  width: 100%;
+  position: relative;
+  height: 40px;
+  border-bottom: 1px solid #E9E9E9;
+}
+
+.main-container .bottom-content .bottom-navs {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.main-container .bottom-content .bottom-nav-item {
+  float: left;
+  min-width: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.main-container .bottom-content .bottom-nav-item.active {
+  color: #217AE2;
+  border-bottom: 2px solid #217AE2;
+}
+
+.main-container .bottom-content .bottom-nav-contents {
+  width: 100%;
+  height: calc(100% - 55px);
+}
+
+.main-container .bottom-content .nav-content-item {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.main-container .bottom-content .operator-container {
+  text-align: center;
+  width: 100%;
+  min-height: 370px;
+  height: calc(100% - 190px);
+}
+
+.main-container .bottom-content .operator-container .operator-title {
+  height: 40px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #217AE2;
+}
+
+.main-container .bottom-content .operator-container .operator-content {
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+}
+
+.main-container .bottom-content .table-container .operator-content {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  overflow: auto;
+  height: calc(100% - 40px);
+}
+
+.main-container .bottom-content .table-container .operator-content .table-item {
+  height: 30px;
+  cursor: pointer;
+  text-align: left;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.main-container .bottom-content .table-container .operator-content .table-item.active {
+  background: #217AE2;
+  color: #FFFFFF;
+}
+
+.main-container .bottom-content .operator-container>div {
+  float: left;
+}
+
+.main-container .bottom-content .operator-container .field-container {
+  width: 500px;
+  height: 100%;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.main-container .bottom-content .operator-container .table-container {
+  width: 200px;
+  height: 100%;
+}
+
+.main-container .bottom-content .operator-container .sql-container {
+  width: calc(100% - 700px);
+  min-width: 400px;
+  height: 100%;
+}
+
+.main-container .bottom-content .operator-container .sql-builder {
+  min-width: 400px;
+  overflow: auto;
+  position: relative;
+  height: calc(100% - 40px);
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.main-container .bottom-content .operator-container .sql-builder .container-fluid {
+  bottom: 15px;
+  right: 0px;
+  z-index: 999;
+}
+
+.main-container .bottom-content .result-sql {
+  padding: 10px;
+  height: 130px;
+  margin-top: 10px;
+  width: 100%;
+  resize: none;
+  outline-color: #217AE2;
+  border: 1px solid #ccc;
+}
+
+.main-container ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.main-container ::-webkit-scrollbar-track {
+  background: rgb(239, 239, 239);
+  border-radius: 6px;
+}
+
+.main-container ::-webkit-scrollbar-thumb {
+  background: #bfbfbf;
+  border-radius: 6px;
+}
+
+.main-container ::-webkit-scrollbar-thumb:hover {
+  background: #C1C1C1;
+}
+
+.bootstrap-duallistbox-container, .bootstrap-duallistbox-container>div {
+  height: 100%;
+}
+
+.bootstrap-duallistbox-container .btn-box {
+  min-width: 40px;
+}
+
+.bootstrap-duallistbox-container .btn-box, .bootstrap-duallistbox-container .settingUp-btns {
+  margin-top: calc(50% - 115px) !important;
+}
+
+.main-container .bottom-content .join-table-query .bootstrap-duallistbox-container .settingUp-btns {
+  right: -2px;
+}
+
+.bootstrap-duallistbox-container>div>select {
+  height: calc(100% - 92px) !important;
+  overflow: auto;
+}
+
+.bootstrap-duallistbox-container .filter.show-clear {
+  width: calc(100% - 44px);
+}
+
+.main-container .bottom-content .bootstrap-duallistbox-container .btn {
+  width: 40px !important;
+  min-height: 32px;
+}
+
+.main-container .bottom-content .form-control, .main-container .bottom-content .btn {
+  border-radius: 2px;
+}
+
+.main-container .bottom-content .rule-group {
+  margin: 5px 5px 5px 25px;
+  background-color: #f9f9f9;
+  border: 1px solid #d58512;
+  border-radius: 2px;
+  position: relative;
+}
+
+.main-container .bottom-content .sql-builder>.rule-group {
+  margin-left: 5px;
+}
+
+.main-container *:before, .main-container *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.rule-group .group-left {
+  float: left;
+  text-align: left;
+}
+
+.rule-group .group-right {
+  float: right;
+  text-align: right;
+}
+
+.rule-group .group-tools, .rule-group .op-add {
+  text-align: left;
+}
+
+.rule-group .group-tools {
+  margin: 5px;
+}
+
+.rule-group .query-statement .rule-row {
+  height: 40px;
+  position: relative;
+  clear: left;
+  margin: 5px 20px;
+}
+
+.rule-group .query-statement .form-control.selectpicker option {
+  border: none !important;
+  height: 30px !important;
+  line-height: 30px !important;
+}
+
+.rule-group .query-statement .form-control.selectpicker optgroup {
+  border: none !important;
+}
+
+.sql-builder .query-statement>.rule-row:first-child::after {
+  top: 0px;
+  height: calc(50% + 2px);
+}
+
+.sql-builder .query-statement>.rule-row:first-child::before, .sql-builder .query-statement>.rule-row:last-child::after {
+  top: 0px;
+  height: 50%;
+}
+
+.sql-builder .query-statement>.rule-row::before, .sql-builder .query-statement>.rule-row::after {
+  content: '';
+  top: -23px;
+  position: absolute;
+  left: -6px;
+  width: 10px;
+  height: calc(50% + 25px);
+  border-color: #CCC;
+  border-style: solid;
+}
+
+.sql-builder .query-statement>.rule-row::before {
+  border-width: 0 0 2px 2px;
+}
+
+.sql-builder .query-statement>.rule-row::after {
+  border-width: 0 0 0 2px;
+}
+
+.rule-group .rule-group::before, .rule-group .rule-group::after {
+  content: '';
+  top: -43px;
+  position: absolute;
+  left: -12px;
+  width: 11px;
+  height: calc(50% + 43px);
+  border-color: #CCC;
+  border-style: solid;
+  border-width: 0 0 2px 2px;
+}
+
+.rule-group .rule-group::before {
+  border-width: 0 0 2px 2px;
+}
+
+.rule-group .rule-group::after {
+  border-width: 0 0 0 2px;
+}
+
+.rule-group .rule-group::after {
+  top: calc(50% - 79px);
+}
+
+.rule-group .rule-group:last-child::after {
+  top: -43px;
+}
+
+.rule-group .column-key, .rule-group .column-operator, .rule-group .column-value {
+  float: left;
+  border: 4px solid #f9f9f9;
+  width: 30%;
+}
+
+.rule-group .row-tools {
+  float: left;
+  position: relative;
+  margin-top: 6px;
+  width: 10%;
+}
+
+.rule-group .row-tools button {
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  text-align: center;
+}
+
+.rule-group .head {
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+.rule-group .error {
+  color: orangered;
+}
+
+/* 数据模型管理 */
+
+.main-container .bottom-content .meta-manager {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.main-container .bottom-content .meta-manager>div:first-child {
+  margin-right: 20px;
+}
+
+.main-container .bottom-content .meta-manager>div {
+  width: calc(50% - 10px);
+  height: 100%;
+  float: left;
+}
+
+.main-container .bottom-content .meta-container .meta-title {
+  height: 40px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #217AE2;
+  text-align: center;
+}
+
+.main-container .bottom-content .meta-container .meta-list {
+  height: calc(100% - 40px);
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.bottom-content .meta-container .meta-list .meta-item {
+  height: 30px;
+  cursor: pointer;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.bottom-content .meta-container .meta-list .meta-item.active {
+  background: #217AE2;
+  color: #FFFFFF;
+}
+
+/* 数据模型管理 */
+
+/* 弹窗公共样式 */
+
+.modal-dialog.query-modal-dialog {
+  left: 50%;
+  margin-left: 0;
+  margin-right: 0;
+  transform: translateX(-50%) !important;
+}
+
+.modal-dialog.query-modal-dialog .modal-content {
+  height: 100%;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.modal-header.query-modal-header, .modal-footer.query-modal-footer {
+  padding: 10px;
+}
+
+.modal-header.query-modal-header .close {
+  margin-top: 5px;
+}
+
+.modal-body.query-modal-body {
+  height: calc(100% - 100px);
+}
+
+/* 弹窗公共样式 */
+
+.advance-body {
+  height: 100%;
+}
+
+.advance-body .form-control, .advance-body .btn {
+  border-radius: 2px;
+}
+
+.advance-body .text-danger {
+  color: #FF0000;
+}
+
+.advance-body .advance-item {
+  width: 25%;
+  padding: 10px 15px;
+  height: 100%;
+  float: left;
+}
+
+.advance-body .advance-item.group-container {
+  padding-left: 5px;
+}
+
+.advance-body .advance-item .advance-item-title {
+  height: 40px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #217AE2;
+  text-align: center;
+}
+
+.advance-body .advance-item .advance-item-title .advance-item-tool {
+  display: inline;
+  font-size: 12px;
+}
+
+.advance-body .advance-item .advance-item-title .advance-item-tool input {
+  cursor: pointer;
+}
+
+.advance-body .advance-item .advance-item-content {
+  height: calc(100% - 40px);
+}
+
+.advance-body .advance-item .bootstrap-duallistbox-container .btn {
+  width: 40px !important;
+  min-height: 32px;
+}
+
+.advance-body .advance-item .bootstrap-duallistbox-container .box1, .advance-body .advance-item .bootstrap-duallistbox-container .box2 {
+  text-align: center;
+}
+
+.advance-body .bootstrap-duallistbox-container .btn-box, .advance-body .bootstrap-duallistbox-container .settingUp-btns {
+  margin-top: calc(50% - 25px) !important;
+}
+
+.advance-body .advance-item .bootstrap-duallistbox-container .settingUp-btns {
+  right: -20px;
+}
+
+.advance-body .advance-item .bootstrap-duallistbox-container>div>select {
+  height: calc(100% - 60px) !important;
+}
+
+.advance-body .common-container .advance-item-content {
+  padding: 15px 5px;
+  overflow: auto;
+}
+
+.advance-body .common-container .advance-row {
+  width: 100%;
+  overflow: hidden;
+}
+
+.advance-body .common-container .advance-row-item {
+  width: calc(50% - 45px);
+  padding-left: 10px;
+  text-align: center;
+  float: left;
+  margin-top: 5px;
+}
+
+.advance-body .common-container .advance-row-item.btn-item {
+  width: 45px;
+}
+
+.advance-body .common-container .advance-row-item.btn-item:last-child {
+  padding-left: 0px;
+}
+
+.advance-body .common-container .advance-row-item button {
+  height: 30px;
+  width: 35px;
+}
+
+.advance-body .pagination-container .advance-item-content {
+  padding-top: 15px;
+}
+
+.advance-body .pagination-container .form-group {
+  overflow: hidden;
+}
+
+.advance-body .pagination-container .form-group label {
+  width: 80px;
+  text-align: right;
+  line-height: 29px;
+  padding-right: 10px;
+  float: left;
+}
+
+.advance-body .pagination-container .form-group .form-control {
+  width: calc(100% - 80px);
+  float: left;
+}
+
+.advance-body .advance-item .advance-item-content fieldset {
+  height: 100%;
+  width: 100%;
+}
+
+/* 多表关联页面样式 */
+
+.main-container .bottom-content .operator-container .joiner-container {
+  width: 540px;
+  height: 100%;
+}
+
+.main-container .bottom-content .join-table-query .field-container {
+  width: 440px;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+.main-container .bottom-content .operator-container .joiner-builder {
+  min-width: 400px;
+  position: relative;
+  padding: 5px;
+  height: calc(100% - 40px);
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.main-container .bottom-content .operator-container .builder-content {
+  height: calc(100% - 45px);
+  overflow: auto;
+}
+
+.main-container .bottom-content .operator-container .builder-tools {
+  height: 40px;
+  text-align: right;
+  line-height: 45px;
+}
+
+.main-container .bottom-content .joiner-builder .joiner-row {
+  width: 100%;
+  background-color: #f9f9f9;
+  border: 1px solid #d58512;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.main-container .bottom-content .joiner-builder .joiner-row.first-joiner-row {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.main-container .bottom-content .joiner-builder .joiner-row-item {
+  min-width: 100px;
+  padding-left: 10px;
+  text-align: center;
+  float: left;
+  margin-top: 5px;
+}
+
+.main-container .bottom-content .joiner-builder .joiner-row-item.connector-item {
+  width: 115px;
+}
+
+.main-container .bottom-content .joiner-builder .joiner-row-item.join-table-item {
+  width: calc(50% - 58px);
+}
+
+.main-container .bottom-content .joiner-builder .first-joiner-row .join-table-item {
+  width: calc(100% - 235px);
+  margin-left: 25px;
+}
+
+.main-container .bottom-content .joiner-builder .joiner-row .table-alias-item {
+  width: 80px;
+}
+
+.main-container .bottom-content .joiner-builder .joiner-row-item.btn-item {
+  width: 100px;
+}
+
+.main-container .bottom-content .joiner-builder .joiner-row-item.second-group {
+  width: calc(33.333% - 5px);
+}
+
+.main-container .bottom-content .joiner-builder .joiner-row-item button {
+  height: 25px;
+  line-height: 25px;
+  width: 39px;
+  margin-top: 5px;
+}
+
+.main-container .bottom-content .join-table-query .sql-container {
+  width: calc(100% - 1060px);
+  margin-left: 10px;
+  height: 100%;
+}
+
+.main-container .bottom-content .join-table-query .sql-builder {
+  overflow: auto;
+  position: relative;
+  height: calc(100% - 40px);
+  width: 100%;
+  border: 1px solid #ccc;
+}

@@ -1,0 +1,143 @@
+.newtec-table .t-thead-div>.table-more-module{
+	position: absolute;
+    right: 0;
+    /*background: #a3c3f1;*/
+    top: 0;
+    bottom: 0;
+    padding: 5px;
+    height: 33px;
+    margin: auto;
+    border-radius: 6px 0 0 6px;
+    /*width:100px;*/
+}
+.chooseFieldsDiv{
+	/*margin-top:6px;*/
+	min-width:160px;
+	position:absolute;
+	top: 35px;
+	right:0;
+	display:none;
+}
+.sortFieldsDiv{
+	right: 0;
+	left: auto;
+}
+.choosefieldsdiv-top,.sortfieldsdiv-top{
+	padding:10px;
+	padding-left:5;
+	background:white;
+	border-bottom:1px solid #ddd
+}
+.choosefieldsdiv-mid,.sortfieldsdiv-mid{
+	background:white;
+	padding:5px
+}
+.choosefieldsdiv-mid .select{
+    position:  relative;
+    padding-left: 30px;
+    height:25px;
+    line-height:25px;
+}
+.sortfieldsdiv-mid div{
+	height:25px;
+	line-height: 25px;
+}
+.sortfieldsdiv-mid div .glyphicon-triangle-top{
+	cursor:pointer;
+	top:-4px;
+	left:4px;
+	font-size:12px
+}
+.sortfieldsdiv-mid div .glyphicon-triangle-bottom{
+	cursor:pointer;
+	top:5px;
+	left:-8px;
+	font-size:12px
+}
+.newtec-thead .glyphicon-triangle-top{
+	cursor:pointer;
+	top:-4px;
+	left:4px;
+	font-size:12px;
+}
+.newtec-thead .glyphicon-triangle-bottom{
+	cursor:pointer;
+	top:5px;
+	left:-8px;
+	font-size:12px;
+}
+.choosefieldsdiv-bot{
+	background:white;
+	margin-top: 5px;
+	border-top:1px solid #ddd;
+	padding:5px 0;
+}
+.choosefieldsdiv-bot button{
+	background: #e8ebf3;
+	margin-left: 5px;
+	color: black;
+}
+.btn.focus, .btn:focus, .btn:hover{
+	/*color:white;*/
+	color:black
+}
+.sortfieldsdiv-bot{
+	border-top: 1px solid #DDD;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+.sortFieldsDiv button{
+	background: #e8ebf3;
+	margin-left: 5px;
+	color: black;
+	width: 70px
+}
+/*.sortFieldsDiv button:hover,.choosefieldsdiv-bot button:hover{
+	color: black;
+}*/
+.sortFieldItem{
+	padding-left:30px;
+	position:relative;
+}
+.sortFieldItem span, .select .itemfield{
+	cursor:pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.sortFieldImg{
+	position:absolute;
+	top:4px;
+	left:8px;
+	display:none;
+}
+.sortFieldSpan{
+	position:absolute;
+	display:block;
+	top:4px;
+	left:8px;
+	width:14px;
+	height:14px;
+}
+.sortFieldSpan{
+	width: 14px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    border: 1px solid #a9a9a9;
+}
+.sortTitle,.showTitle {
+	padding:2px 5px !important;
+	margin-left: 6px;
+	background: white;
+    border: 1px solid #a9a9a9;
+}
+.sortFieldsDiv button.resBtn{
+	width:93%;
+	margin-top: 5px;
+}
